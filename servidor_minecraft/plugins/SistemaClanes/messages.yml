@@ -1,0 +1,174 @@
+# Mensajes del Sistema de Clanes
+# ===============================
+
+# Mensajes generales
+general:
+  prefix: "§7[§aCLANES§7] "
+  no-permission: "§c¡No tienes permisos para hacer esto!"
+  player-not-found: "§c¡Jugador no encontrado!"
+  clan-not-found: "§c¡Clan no encontrado!"
+  invalid-usage: "§cUso incorrecto. Usa: {usage}"
+
+# Comandos de clan
+clan:
+  help:
+    - "§a§l=== COMANDOS DE CLAN ==="
+    - "§e/clan crear <nombre> §7- Crear un nuevo clan"
+    - "§e/clan info [clan] §7- Ver información de un clan"
+    - "§e/clan lista §7- Ver lista de clanes"
+    - "§e/clan invitar <jugador> §7- Invitar a un jugador"
+    - "§e/clan aceptar <clan> §7- Aceptar invitación"
+    - "§e/clan rechazar <clan> §7- Rechazar invitación"
+    - "§e/clan salir §7- Abandonar tu clan"
+    - "§e/clan expulsar <jugador> §7- Expulsar miembro"
+    - "§e/clan promover <jugador> §7- Promover miembro"
+    - "§e/clan degradar <jugador> §7- Degradar miembro"
+    - "§e/clan disolver §7- Disolver el clan"
+    - "§e/clan descripcion <texto> §7- Cambiar descripción"
+    - "§e/clan claim §7- Reclamar territorio"
+    - "§e/clan territorios §7- Ver territorios del clan"
+
+  # Crear clan
+  create:
+    success: "§a¡Clan '{clan}' creado exitosamente!"
+    already-exists: "§c¡Ya existe un clan con ese nombre!"
+    already-in-clan: "§c¡Ya perteneces a un clan!"
+    invalid-name: "§c¡Nombre de clan inválido! Debe tener entre {min} y {max} caracteres."
+    invalid-characters: "§c¡El nombre contiene caracteres no permitidos!"
+
+  # Información del clan
+  info:
+    header: "§a§l=== INFORMACIÓN DEL CLAN {clan} ==="
+    leader: "§7Líder: §e{leader}"
+    members: "§7Miembros: §e{count}/{max}"
+    level: "§7Nivel: §e{level} §7(§a{exp} EXP§7)"
+    created: "§7Creado: §e{date}"
+    description: "§7Descripción: §f{description}"
+    territories: "§7Territorios: §e{count}"
+    allies: "§7Aliados: §a{allies}"
+    enemies: "§7Enemigos: §c{enemies}"
+    at-war: "§c¡EN GUERRA!"
+    member-list: "§7Miembros: {members}"
+
+  # Lista de clanes
+  list:
+    header: "§a§l=== LISTA DE CLANES ==="
+    entry: "§e{position}. §a{clan} §7- §e{members} miembros §7(Líder: §b{leader}§7)"
+    empty: "§7No hay clanes creados aún."
+
+  # Invitaciones
+  invite:
+    success: "§a¡Invitación enviada a {player}!"
+    already-invited: "§c¡{player} ya tiene una invitación pendiente!"
+    already-in-clan: "§c¡{player} ya pertenece a un clan!"
+    no-permission: "§c¡No tienes permisos para invitar jugadores!"
+    max-members: "§c¡El clan ha alcanzado el límite máximo de miembros!"
+    self-invite: "§c¡No puedes invitarte a ti mismo!"
+
+  accept:
+    success: "§a¡Te has unido al clan {clan}!"
+    no-invitation: "§c¡No tienes invitaciones de ese clan!"
+    already-in-clan: "§c¡Ya perteneces a un clan!"
+    clan-full: "§c¡El clan está lleno!"
+
+  reject:
+    success: "§7Has rechazado la invitación del clan {clan}."
+    no-invitation: "§c¡No tienes invitaciones de ese clan!"
+
+  # Abandonar clan
+  leave:
+    success: "§7Has abandonado el clan {clan}."
+    leader-transfer: "§a¡El liderazgo ha sido transferido a {newleader}!"
+    not-in-clan: "§c¡No perteneces a ningún clan!"
+    last-member: "§7El clan {clan} ha sido disuelto automáticamente."
+
+  # Expulsar miembro
+  kick:
+    success: "§a¡{player} ha sido expulsado del clan!"
+    not-member: "§c¡{player} no es miembro del clan!"
+    cannot-kick-leader: "§c¡No puedes expulsar al líder del clan!"
+    no-permission: "§c¡No tienes permisos para expulsar miembros!"
+    kicked: "§c¡Has sido expulsado del clan {clan}!"
+
+  # Promover/Degradar
+  promote:
+    success: "§a¡{player} ha sido promovido a {role}!"
+    max-rank: "§c¡{player} ya tiene el rango máximo!"
+    not-member: "§c¡{player} no es miembro del clan!"
+    no-permission: "§c¡No tienes permisos para promover miembros!"
+
+  demote:
+    success: "§a¡{player} ha sido degradado a {role}!"
+    min-rank: "§c¡{player} ya tiene el rango mínimo!"
+    cannot-demote-leader: "§c¡No puedes degradar al líder del clan!"
+    not-member: "§c¡{player} no es miembro del clan!"
+    no-permission: "§c¡No tienes permisos para degradar miembros!"
+
+  # Disolver clan
+  disband:
+    success: "§c¡El clan {clan} ha sido disuelto!"
+    confirm: "§c¡ADVERTENCIA! §7Escribe §c/clan disolver confirmar §7para disolver el clan permanentemente."
+    no-permission: "§c¡Solo el líder puede disolver el clan!"
+    disbanded: "§c¡Tu clan {clan} ha sido disuelto!"
+
+  # Descripción
+  description:
+    success: "§a¡Descripción del clan actualizada!"
+    too-long: "§c¡La descripción es demasiado larga! Máximo {max} caracteres."
+    no-permission: "§c¡No tienes permisos para cambiar la descripción!"
+
+# Territorios
+territory:
+  claim:
+    success: "§a¡Territorio reclamado exitosamente!"
+    already-claimed: "§c¡Este territorio ya pertenece a tu clan!"
+    enemy-territory: "§c¡Este territorio pertenece al clan enemigo {clan}!"
+    insufficient-members: "§c¡Tu clan necesita al menos {required} miembros para atacar este territorio!"
+    max-territories: "§c¡Tu clan ha alcanzado el límite máximo de territorios!"
+    no-permission: "§c¡No tienes permisos para reclamar territorio!"
+    not-in-clan: "§c¡Debes estar en un clan para reclamar territorio!"
+    
+  claim-hostile:
+    started: "§c¡Iniciando claim hostil! Duración: {duration} segundos"
+    progress: "§e⚔ Reclamando territorio... {progress}% §7({time}s restantes)"
+    interrupted: "§c¡Tu claim ha sido interrumpido! ({hits}/5 golpes)"
+    completed: "§a¡Claim completado! Ahora debes eliminar a todos los miembros del clan enemigo."
+    victory: "§a¡Territorio conquistado exitosamente!"
+    
+  attack-notification:
+    title: "§c§l¡ATAQUE AL TERRITORIO!"
+    attacker: "§7El clan §c{attacker} §7está atacando territorio del clan §e{defender}"
+    location: "§7Ubicación: §e{x}, {z} §7en §e{world}"
+    defend: "§c¡Defended vuestro territorio! Golpead al enemigo 5 veces para interrumpir!"
+    
+  defense:
+    hit-attacker: "§a¡Has golpeado al enemigo! §7({hits}/5 golpes para interrumpir)"
+    successful: "§a§l¡DEFENSA EXITOSA!"
+    repelled: "§7¡El ataque a vuestro territorio ha sido repelido!"
+    
+  list:
+    header: "§a§l=== TERRITORIOS DEL CLAN {clan} ==="
+    entry: "§e{number}. §7{coordinates} §7- Reclamado por §b{player}"
+    empty: "§7El clan no tiene territorios reclamados."
+
+# Chat
+chat:
+  clan-format: "§7[§a{clan}§7] §f{player}§7: §f{message}"
+  joined-clan: "§a{player} se ha unido al clan!"
+  left-clan: "§c{player} ha abandonado el clan."
+  promoted: "§a{player} ha sido promovido a {role}!"
+  demoted: "§c{player} ha sido degradado a {role}."
+
+# Errores
+error:
+  command-error: "§c¡Error ejecutando comando! Contacta a un administrador."
+  data-save-error: "§c¡Error guardando datos! Los cambios podrían perderse."
+  data-load-error: "§c¡Error cargando datos del clan!"
+
+# Notificaciones
+notification:
+  invitation-received: "§a§l¡INVITACIÓN DE CLAN!"
+  invitation-details: "§7Has sido invitado al clan §e{clan} §7por §b{inviter}"
+  invitation-accept: "§7Usa §a/clan aceptar {clan} §7para unirte"
+  invitation-reject: "§7Usa §c/clan rechazar {clan} §7para rechazar"
+  invitation-expires: "§7Esta invitación expira en §c{time}§7."

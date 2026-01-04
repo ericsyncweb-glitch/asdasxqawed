@@ -1,0 +1,70 @@
+# Configuración del Sistema de Clanes
+# =====================================
+
+clan:
+  # Configuración general de clanes
+  max-miembros: 50
+  nombre:
+    min-longitud: 3
+    max-longitud: 16
+    caracteres-permitidos: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"
+  
+  # Configuración de invitaciones
+  invitacion:
+    duracion-minutos: 5
+    max-invitaciones-pendientes: 5
+
+territorio:
+  # Configuración de territorios y claims
+  max-por-clan: 10
+  max-dimension: 100  # Máximo 100x100x100 bloques por territorio
+  claim-hostil:
+    duracion-segundos: 60
+    porcentaje-miembros-requerido: 0.5  # 50% de los miembros del clan defensor
+    golpes-para-interrumpir: 5
+  
+  # Protecciones
+  pvp-permitido: true
+  proteccion-bloques: true
+  proteccion-cofres: true
+  
+  # Distancia mínima entre territorios del mismo clan
+  distancia-minima-chunks: 2
+  
+  # Configuración de selección de área
+  seleccion:
+    tiempo-expiracion-minutos: 5
+    mostrar-particulas: true
+
+chat:
+  # Configuración del chat de clanes
+  clan-habilitado: true
+  formato-clan: "§7[%1$s§7] §f%1$s§7: %2$s"
+  prefijo: "§7[%1$s§7] "
+  
+  # Chat privado del clan
+  comando-chat-clan: "cc"
+
+experiencia:
+  # Sistema de experiencia y niveles
+  por-kill-enemigo: 10
+  por-claim-territorio: 50
+  por-defender-territorio: 25
+  por-miembro-nuevo: 5
+
+economia:
+  # Integración con Vault (opcional)
+  habilitado: false
+  costo-crear-clan: 1000.0
+  costo-claim-territorio: 500.0
+
+guerra:
+  # Sistema de guerra entre clanes
+  duracion-maxima-horas: 24
+  cooldown-declarar-horas: 48
+  
+debug:
+  # Configuración de debug
+  habilitado: false
+  log-claims: true
+  log-invitaciones: true

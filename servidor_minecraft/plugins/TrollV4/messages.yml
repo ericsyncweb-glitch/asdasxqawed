@@ -1,0 +1,71 @@
+# TrollV4 Messages Configuration
+# Use & for color codes
+# Available placeholders: {player}, {mob}, {message}
+
+# General
+prefix: '&c[TrollV4] &r'
+no-permission: '&cYou don''t have permission to use this command!'
+player-not-found: '&cPlayer not found!'
+player-offline: '&cPlayer is offline!'
+cannot-troll-self: '&cYou cannot troll yourself!'
+troll-cooldown: '&cYou must wait before trolling again!'
+max-trolls-reached: '&cThis player has reached the maximum number of active trolls!'
+
+# Command usage
+usage:
+  troll: '&cUsage: /troll [player]'
+  freeze: '&cUsage: /freeze <player>'
+  explode: '&cUsage: /explode <player>'
+  launch: '&cUsage: /launch <player>'
+  spam: '&cUsage: /spam <player> <message>'
+  sound: '&cUsage: /sound <player> <sound>'
+  disguise: '&cUsage: /disguise <player> <mob>'
+  mob: '&cUsage: /mob <player> <mob> [amount]'
+
+# Success messages (sent to command executor)
+success:
+  freeze: '&aFroze player &e{player}&a!'
+  unfreeze: '&aUnfroze player &e{player}&a!'
+  explode: '&aExploded player &e{player}&a!'
+  launch: '&aLaunched player &e{player}&a!'
+  blind: '&aBlinded player &e{player}&a!'
+  confuse: '&aConfused player &e{player}&a!'
+  burn: '&aSet player &e{player}&a on fire!'
+  poison: '&aPoisoned player &e{player}&a!'
+  cage: '&aCaged player &e{player}&a!'
+  uncage: '&aUncaged player &e{player}&a!'
+  lightning: '&aStruck player &e{player}&a with lightning!'
+  disguise: '&aDisguised player &e{player}&a as &e{mob}&a!'
+  undisguise: '&aUndisguised player &e{player}&a!'
+  teleport: '&aTeleported player &e{player}&a randomly!'
+  rocket: '&aLaunched player &e{player}&a like a rocket!'
+  slow: '&aSlowed down player &e{player}&a!'
+  jump: '&aMade player &e{player}&a jump!'
+  hunger: '&aMade player &e{player}&a hungry!'
+
+# Troll messages (sent to trolled player)
+troll:
+  freeze: '&cYou have been frozen!'
+  blind: '&cYou have been blinded!'
+  confuse: '&cYou feel confused...'
+  burn: '&cYou are on fire!'
+  poison: '&cYou have been poisoned!'
+  cage: '&cYou have been caged!'
+  fake-op: '&aYou are now op!'
+  fake-deop: '&cYou are no longer op!'
+  slow: '&cYou feel sluggish...'
+  jump: '&cYou can''t stop jumping!'
+  hunger: '&cYou feel very hungry...'
+
+# GUI messages
+gui:
+  title: '&c&lTroll Menu'
+  select-player: '&eSelect a player to troll:'
+  no-players: '&cNo players online to troll!'
+
+# Fake messages
+fake:
+  join: '&e{player} joined the game'
+  leave: '&e{player} left the game'
+  op: '&aYou are now op!'
+  deop: '&cYou are no longer op!'

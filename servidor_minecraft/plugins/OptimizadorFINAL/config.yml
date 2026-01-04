@@ -1,0 +1,117 @@
+# Configuración del OptimizadorFINAL
+
+# Limpieza de Items
+item-cleanup:
+  enabled: true
+  interval-minutes: 5
+  warning-seconds: 30
+  exclude-valuable: true
+  valuable-items:
+  - DIAMOND
+  - NETHERITE_INGOT
+  - NETHERITE_SCRAP
+  - EMERALD
+  - GOLD_INGOT
+  - ENCHANTED_BOOK
+  - TOTEM_OF_UNDYING
+
+# Gestión de Mobs
+mob-management:
+  enabled: true
+  max-mobs-per-chunk: 50
+  protect-named-mobs: true
+  hostile-cleanup-areas: []
+  farm-protection-areas: []
+
+# Gestión de Animales
+animal-management:
+  enabled: true
+  max-animals-per-area: 30
+  area-radius: 16
+  merge-similar-items: true
+  cleanup-abandoned-vehicles: true
+
+# Gestión de Experiencia
+experience-management:
+  enabled: true
+  merge-nearby-orbs: true
+  merge-distance: 3
+  max-orbs-per-area: 100
+  auto-bottle-conversion: false
+
+# Optimización de Chunks
+chunk-optimization:
+  enabled: true
+  unload-empty-chunks: true
+  max-chunks-per-player: 100
+  compress-inactive-chunks: true
+
+# Optimización de Redstone
+redstone-optimization:
+  enabled: true
+  max-operations-per-tick: 1000
+  pause-when-no-players: true
+  pause-distance: 64
+  optimize-hoppers: true
+  hopper-check-interval: 8
+
+# Prevención de Lag
+lag-prevention:
+  enabled: true
+  tps-threshold: 18.0
+  auto-restart-on-extreme-lag: false
+  max-blocks-per-second: 1000
+  explosion-throttling: true
+  max-explosions-per-tick: 5
+
+# Monitoreo
+monitoring:
+  enabled: true
+  tps-alerts: true
+  ram-alerts: true
+  ram-threshold-percent: 85
+  discord-webhook: ''
+  log-actions: true
+
+# Gestión de Jugadores
+player-management:
+  enabled: true
+  max-actions-per-second: 20
+  max-inventory-items: 2304
+  afk-kick-minutes: 30
+  max-connections: 100
+  vip-priority: []
+
+# Backup y Mantenimiento
+backup:
+  enabled: true
+  interval-hours: 6
+  max-backups: 10
+  compress-backups: true
+  cleanup-old-logs: true
+  log-retention-days: 7
+
+# Optimización de Mundo
+world-optimization:
+  enabled: true
+  pregenerate-chunks: false
+  max-exploration-distance: 10000
+  cleanup-floating-structures: true
+  optimize-crop-growth: true
+  max-flowing-blocks: 1000
+
+# Modo Mantenimiento
+maintenance-mode:
+  enabled: false
+  auto-activate-on-extreme-lag: true
+  extreme-lag-tps: 10.0
+  safe-mode-features: true
+  auto-rollback: false
+
+# Mensajes
+messages:
+  prefix: '&8[&6OptimizadorFINAL&8] '
+  item-cleanup-warning: '&eAtención: Limpieza de items en {seconds} segundos!'
+  item-cleanup-complete: '&aLimpieza completada: {items} items eliminados'
+  performance-warning: '&cAdvertencia: TPS bajo detectado ({tps})'
+  maintenance-mode-enabled: '&cModo mantenimiento activado'

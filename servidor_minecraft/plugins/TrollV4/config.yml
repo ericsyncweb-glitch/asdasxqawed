@@ -1,0 +1,49 @@
+# TrollV4 Configuration File
+# Author: Ericson
+# Version: 4.5.30
+
+settings:
+  # Cooldown between trolls in milliseconds (1000 = 1 second)
+  troll-cooldown: 1000
+  
+  # Maximum number of active trolls per player
+  max-trolls-per-player: 5
+  
+  # Enable/disable GUI system
+  enable-gui: true
+  
+  # Enable/disable sound effects
+  enable-sounds: true
+  
+  # Enable/disable particle effects
+  enable-particles: true
+  
+  # Auto-remove trolls when player quits
+  auto-remove-trolls-on-quit: true
+
+# Troll durations in ticks (20 ticks = 1 second)
+durations:
+  freeze: 200 # 10 seconds
+  blind: 100 # 5 seconds
+  confuse: 150 # 7.5 seconds
+  slow: 200 # 10 seconds
+  jump: 100 # 5 seconds
+  burn: 60 # 3 seconds
+  poison: 100 # 5 seconds
+  dance: 300 # 15 seconds
+
+# Troll intensities and powers
+intensities:
+  explosion-power: 2.0
+  launch-power: 2.0
+  rocket-power: 3.0
+  spam-count: 10
+  mob-count: 5
+
+# GUI Configuration
+gui:
+  title: §c§lTroll Menu
+  size: 54
+
+# Debug mode (for developers)
+debug: false

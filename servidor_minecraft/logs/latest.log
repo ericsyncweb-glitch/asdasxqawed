@@ -1,0 +1,205 @@
+[16:17:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[16:17:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-74-main@3ebc5b3 (2026-01-02T19:02:46Z) for Minecraft 1.21.11
+[16:17:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:17:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[16:17:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - ArbolMachete (1.0), AzadaMagica (1.0), Chunky (1.4.40), OptimizadorFINAL (1.0.0), PluginDupe (1.0), SistemaClanes (1.0.0), TrollV4 (4.5.30)
+[16:17:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:17:37] [ServerMain/INFO]: Loaded 1470 recipes
+[16:17:37] [ServerMain/INFO]: Loaded 1584 advancements
+[16:17:37] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:17:37] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 334.3ms
+[16:17:37] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[16:17:37] [Server thread/INFO]: Loading properties
+[16:17:37] [Server thread/INFO]: This server is running Paper version 1.21.11-74-main@3ebc5b3 (2026-01-02T19:02:46Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[16:17:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:17:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:17:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:17:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:17:39] [Server thread/INFO]: Default game type: SURVIVAL
+[16:17:39] [Server thread/INFO]: Generating keypair
+[16:17:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:17:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:17:39] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:17:39] [Server thread/INFO]: [TrollV4] Loading server plugin TrollV4 v4.5.30
+[16:17:39] [Server thread/INFO]: [PluginDupe] Loading server plugin PluginDupe v1.0
+[16:17:39] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[16:17:39] [Server thread/INFO]: [OptimizadorFINAL] Loading server plugin OptimizadorFINAL v1.0.0
+[16:17:39] [Server thread/INFO]: [AzadaMagica] Loading server plugin AzadaMagica v1.0
+[16:17:39] [Server thread/INFO]: [ArbolMachete] Loading server plugin ArbolMachete v1.0
+[16:17:39] [Server thread/INFO]: [SistemaClanes] Loading server plugin SistemaClanes v1.0.0
+[16:17:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:17:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:17:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:17:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:17:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:17:39] [Server thread/INFO]: Preparing level "world"
+[16:17:39] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[16:17:39] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[16:17:39] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[16:17:39] [Server thread/INFO]: Preparing spawn area: 100%
+[16:17:39] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:17:39] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[16:17:39] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:17:39] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[16:17:39] [Server thread/INFO]: Preparing spawn area: 100%
+[16:17:39] [Server thread/INFO]: Prepared spawn area in 3 ms
+[16:17:39] [Server thread/INFO]: Done preparing level "world" (0.490s)
+[16:17:40] [Server thread/INFO]: [TrollV4] Enabling TrollV4 v4.5.30
+[16:17:40] [Server thread/INFO]: [TrollV4] Fake Player Manager initialized! Using ArmorStand for physical presence.
+[16:17:40] [Server thread/WARN]: [TrollV4] ProtocolLib not found! Some features may not work properly.
+[16:17:40] [Server thread/WARN]: [TrollV4] LibsDisguises not found! Disguise features will be disabled.
+[16:17:40] [Server thread/INFO]: [TrollV4] NoteBlockAPI not found. Sound features will use basic sounds.
+[16:17:40] [Server thread/INFO]: [TrollV4] §aTrollV4 has been enabled successfully!
+[16:17:40] [Server thread/INFO]: [TrollV4] §eVersion: 4.5.30
+[16:17:40] [Server thread/INFO]: [TrollV4] §eAuthor: [Ericson]
+[16:17:40] [Server thread/INFO]: [PluginDupe] Enabling PluginDupe v1.0
+[16:17:40] [Server thread/INFO]: [PluginDupe] PluginDupe habilitado correctamente!
+[16:17:40] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[16:17:40] [Server thread/INFO]: [OptimizadorFINAL] Enabling OptimizadorFINAL v1.0.0
+[16:17:40] [Server thread/INFO]: [OptimizadorFINAL] OptimizadorFINAL ha sido activado correctamente!
+[16:17:40] [Server thread/INFO]: [AzadaMagica] Enabling AzadaMagica v1.0
+[16:17:40] [Server thread/INFO]: [AzadaMagica] Azada Mágica activada! Los administradores pueden usar rayos con azadas de netherite.
+[16:17:40] [Server thread/INFO]: [ArbolMachete] Enabling ArbolMachete v1.0
+[16:17:40] [Server thread/INFO]: [ArbolMachete] ArbolMachete Plugin habilitado!
+[16:17:40] [Server thread/INFO]: [SistemaClanes] Enabling SistemaClanes v1.0.0
+[16:17:40] [Server thread/INFO]: [SistemaClanes] Cargados 0 clanes.
+[16:17:40] [Server thread/INFO]: [SistemaClanes] Cargados 5 territorios.
+[16:17:40] [Server thread/INFO]: [SistemaClanes] Cargadas 0 alianzas
+[16:17:40] [Server thread/INFO]: [SistemaClanes] §a¡Sistema de Clanes cargado correctamente!
+[16:17:40] [Server thread/INFO]: [SistemaClanes] §aClanAPI v1.0.0 disponible para otros plugins
+[16:17:40] [Server thread/INFO]: [spark] Starting background profiler...
+[16:17:41] [Server thread/INFO]: Running delayed init tasks
+[16:17:41] [Server thread/INFO]: Done (16.289s)! For help, type "help"
+[16:17:41] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 1 build(s) behind ***
+[16:17:41] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[16:18:30] [User Authenticator #0/INFO]: UUID of player Iluzzi is 3e5693d9-73fc-31f8-bf33-65ce69f8aa01
+[16:18:30] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [OptimizadorFINAL]
+[16:18:47] [Server thread/INFO]: Iluzzi (3e5693d9-73fc-31f8-bf33-65ce69f8aa01) lost connection: Timed out
+[16:18:47] [Server thread/INFO]: Iluzzi (3e5693d9-73fc-31f8-bf33-65ce69f8aa01) lost connection: Timed out
+[16:18:53] [User Authenticator #0/INFO]: UUID of player Iluzzi is 3e5693d9-73fc-31f8-bf33-65ce69f8aa01
+[16:18:54] [Server thread/INFO]: Iluzzi joined the game
+[16:18:54] [Server thread/INFO]: Iluzzi[/127.74.183.169:37039] logged in with entity id 93 at ([world]1186.5468134887608, 66.16326680497954, 337.7517336351211)
+[16:22:36] [Server thread/INFO]: Iluzzi issued server command: /gamemode survival
+[16:22:36] [Server thread/INFO]: [Iluzzi: Set own game mode to Survival Mode]
+[16:22:39] [Server thread/INFO]: Iluzzi blew up
+[16:22:41] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:22:52] [Server thread/INFO]: Iluzzi issued server command: /gamemode creative
+[16:22:52] [Server thread/INFO]: [Iluzzi: Set own game mode to Creative Mode]
+[16:23:11] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[16:23:26] [Server thread/INFO]: Iluzzi issued server command: /gamemode survival
+[16:23:26] [Server thread/INFO]: [Iluzzi: Set own game mode to Survival Mode]
+[16:23:32] [Server thread/INFO]: Iluzzi blew up
+[16:24:03] [Server thread/INFO]: Iluzzi has made the advancement [Stone Age]
+[16:24:06] [Async Chat Thread - #0/INFO]: [Not Secure] <Iluzzi> asd
+[16:24:09] [Server thread/INFO]: Iluzzi was kicked due to keepalive timeout!
+[16:24:09] [Server thread/INFO]: Iluzzi lost connection: Timed out
+[16:24:09] [Server thread/INFO]: Iluzzi left the game
+[16:24:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:24:25] [Server thread/INFO]: [Not Secure] [Server] a
+[16:24:31] [Server thread/INFO]: No player was found
+[16:24:48] [Server thread/INFO]: [Not Secure] [Server] a
+[16:24:51] [Server thread/INFO]: ℹ Server Plugins (7):
+[16:24:51] [Server thread/INFO]: Bukkit Plugins:
+[16:24:51] [Server thread/INFO]:  - ArbolMachete, AzadaMagica, Chunky, OptimizadorFINAL, PluginDupe, SistemaClanes, TrollV4
+[16:24:56] [Server thread/INFO]: ¡Este comando solo puede ser usado por jugadores!
+[16:25:38] [Server thread/INFO]: [Not Secure] [Server] a
+[16:27:24] [Server thread/INFO]: Unknown or incomplete command. See below for error
+say<--[HERE]
+[16:27:41] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:27:41] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:28:11] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[16:32:41] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:33:11] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[16:37:41] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:37:41] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:37:41] [Craft Scheduler Thread - 8 - OptimizadorFINAL/INFO]: [OptimizadorFINAL] Generando reporte diario...
+[16:37:41] [Craft Scheduler Thread - 10 - OptimizadorFINAL/INFO]: [OptimizadorFINAL] Reporte diario generado
+[16:38:11] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[16:41:01] [User Authenticator #1/INFO]: UUID of player Iluzzi is 3e5693d9-73fc-31f8-bf33-65ce69f8aa01
+[16:41:01] [Server thread/INFO]: Iluzzi joined the game
+[16:41:01] [Server thread/INFO]: Iluzzi[/127.74.183.169:52709] logged in with entity id 31527 at ([world]409.4694149715752, 60.0, -55.61648357812015)
+[16:41:11] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:41:15] [Server thread/INFO]: Iluzzi issued server command: /gamemode creative
+[16:41:15] [Server thread/INFO]: [Iluzzi: Set own game mode to Creative Mode]
+[16:42:42] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:43:13] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[16:43:42] [Server thread/INFO]: Iluzzi has made the advancement [Minecraft: Trial(s) Edition]
+[16:43:45] [Server thread/WARN]: [OptimizadorFINAL] [2026-01-04 16:43:45] [WARNING] TPS Bajo: TPS actual: 16.95 (Umbral: 18.0)
+[16:43:45] [Server thread/WARN]: [OptimizadorFINAL] TPS bajo detectado: 16.95
+[16:43:46] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:43:46] [Server thread/INFO]: [OptimizadorFINAL] Reduciendo operaciones de redstone
+[16:44:03] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt optimize
+[16:44:04] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:44:10] [Server thread/INFO]: Iluzzi issued server command: /tos
+[16:44:11] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:44:12] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:44:18] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt tps
+[16:47:46] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:47:47] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:48:07] [Server thread/INFO]: Iluzzi issued server command: /tp 1000 ~
+[16:48:10] [Server thread/INFO]: Iluzzi issued server command: /tp 1000 ~ ~
+[16:48:10] [Server thread/INFO]: [Iluzzi: Teleported Iluzzi to 1000.500000, 82.151572, 50.615624]
+[16:48:17] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[16:48:17] [Server thread/INFO]: Iluzzi issued server command: /tp 4000 ~ ~
+[16:48:17] [Server thread/INFO]: [Iluzzi: Teleported Iluzzi to 4000.500000, 74.662743, 49.415432]
+[16:50:23] [Server thread/WARN]: [OptimizadorFINAL] [2026-01-04 16:50:23] [WARNING] TPS Bajo: TPS actual: 16.86 (Umbral: 18.0)
+[16:50:23] [Server thread/WARN]: [OptimizadorFINAL] TPS bajo detectado: 16.86
+[16:50:24] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:50:24] [Server thread/INFO]: [OptimizadorFINAL] Reduciendo operaciones de redstone
+[16:50:29] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:50:34] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt optimize
+[16:50:34] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:50:36] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt
+[16:50:40] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt status
+[16:50:45] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt status
+[16:50:48] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt status
+[16:50:50] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt status
+[16:50:52] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt status
+[16:50:52] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt status
+[16:50:52] [Server thread/INFO]: Iluzzi issued server command: /optimizadorfinal:opt status
+[16:50:53] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:50:55] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:50:56] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:50:56] [Server thread/INFO]: Iluzzi issued server command: /tpst
+[16:50:58] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:50:58] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:50:59] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:51:00] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:51:00] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:51:00] [Server thread/INFO]: Iluzzi issued server command: /tps
+[16:51:41] [Server thread/INFO]: Iluzzi issued server command: /gamemode surviva
+[16:52:14] [Server thread/INFO]: Iluzzi has reached the goal [Sky's the Limit]
+[16:52:42] [Server thread/INFO]: Iluzzi issued server command: /gamemode sur
+[16:52:44] [Server thread/INFO]: Iluzzi issued server command: /gamemode survival
+[16:52:44] [Server thread/INFO]: [Iluzzi: Set own game mode to Survival Mode]
+[16:52:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:53:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[16:53:48] [Server thread/INFO]: Iluzzi fell from a high place
+[16:54:13] [Server thread/INFO]: Iluzzi fell from a high place
+[16:54:57] [Server thread/INFO]: Iluzzi issued server command: /gamemode creative
+[16:54:57] [Server thread/INFO]: [Iluzzi: Set own game mode to Creative Mode]
+[16:57:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[16:57:56] [Craft Scheduler Thread - 15 - OptimizadorFINAL/INFO]: [OptimizadorFINAL] Generando reporte diario...
+[16:57:56] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[16:57:56] [Craft Scheduler Thread - 17 - OptimizadorFINAL/INFO]: [OptimizadorFINAL] Reporte diario generado
+[16:58:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[17:02:05] [Server thread/INFO]: Iluzzi lost connection: Disconnected
+[17:02:05] [Server thread/INFO]: Iluzzi left the game
+[17:02:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[17:03:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[17:07:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[17:07:56] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[17:08:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[17:12:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[17:13:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[17:17:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[17:17:56] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[17:17:56] [Craft Scheduler Thread - 22 - OptimizadorFINAL/INFO]: [OptimizadorFINAL] Generando reporte diario...
+[17:17:56] [Craft Scheduler Thread - 24 - OptimizadorFINAL/INFO]: [OptimizadorFINAL] Reporte diario generado
+[17:18:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[17:22:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[17:23:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados
+[17:27:56] [Server thread/INFO]: [OptimizadorFINAL] Atención: Limpieza de items en 30 segundos!
+[17:27:56] [Server thread/INFO]: [OptimizadorFINAL] Compresión de chunks inactivos ejecutada
+[17:28:26] [Server thread/INFO]: [OptimizadorFINAL] Limpieza completada: 0 items eliminados

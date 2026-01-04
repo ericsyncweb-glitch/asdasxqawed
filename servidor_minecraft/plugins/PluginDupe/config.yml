@@ -1,0 +1,8 @@
+# Configuración del PluginDupe
+# Probabilidad de duplicación (0.0 = 0%, 1.0 = 100%)
+# Ejemplo: 0.1 = 10% de probabilidad
+duplicate-chance: 0.1
+
+# Sonido que se reproduce cuando se duplica un objeto
+# Lista de sonidos disponibles: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+duplicate-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"

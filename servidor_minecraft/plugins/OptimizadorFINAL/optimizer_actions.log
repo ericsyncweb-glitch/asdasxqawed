@@ -1,0 +1,75 @@
+[2026-01-02 23:20:26] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-02 23:23:49] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-02 23:25:09] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizar
+[2026-01-02 23:25:11] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizar status
+[2026-01-02 23:25:18] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizar optimize
+[2026-01-02 23:25:18] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-02 23:25:30] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizar stats
+[2026-01-03 20:13:42] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 20:15:39] PLAYER_QUIT: Jugador Iluzzi se desconectó
+[2026-01-03 20:19:56] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 20:41:34] PLAYER_QUIT: Jugador Iluzzi se desconectó
+[2026-01-03 20:43:25] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 20:59:22] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 21:23:58] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 21:29:41] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 21:33:32] PLAYER_QUIT: Jugador Iluzzi se desconectó
+[2026-01-03 21:40:58] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 21:45:29] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 21:49:37] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 21:51:36] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /deop iluzzi
+[2026-01-03 21:54:46] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 22:00:30] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt
+[2026-01-03 22:00:37] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizer optimize
+[2026-01-03 22:00:38] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-03 22:00:48] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizer stats
+[2026-01-03 22:02:28] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 22:02:41] PLAYER_QUIT: Jugador Iluzzi se desconectó
+[2026-01-03 22:03:31] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-03 22:06:21] ALERT: [2026-01-03 22:06:21] [WARNING] TPS Bajo: TPS actual: 15.27 (Umbral: 18.0)
+[2026-01-03 22:06:39] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:optimizar
+[2026-01-03 22:06:42] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:optimizar optimize
+[2026-01-03 22:06:42] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-03 22:06:47] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:optimizar optimize
+[2026-01-03 22:06:48] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-03 22:06:48] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:optimizar optimize
+[2026-01-03 22:06:49] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-03 22:06:49] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:optimizar optimize
+[2026-01-03 22:06:49] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-03 22:06:49] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:optimizar optimize
+[2026-01-03 22:06:50] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-03 22:06:52] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:optimizar optimize
+[2026-01-03 22:06:53] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-03 22:06:54] ALERT: [2026-01-03 22:06:54] [WARNING] TPS Bajo: TPS actual: 14.15 (Umbral: 18.0)
+[2026-01-03 22:06:55] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizador
+[2026-01-03 22:06:56] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt
+[2026-01-03 22:07:01] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt maintenance
+[2026-01-03 22:07:03] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt maintenance on
+[2026-01-03 22:07:04] MAINTENANCE: Modo mantenimiento activado: Mantenimiento manual
+[2026-01-03 22:07:27] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt
+[2026-01-03 22:07:52] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt tps
+[2026-01-03 22:07:54] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt help
+[2026-01-03 22:07:57] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 12:51:06] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-04 12:54:28] PLAYER_QUIT: Jugador Iluzzi se desconectó
+[2026-01-04 16:18:54] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-04 16:24:09] PLAYER_QUIT: Jugador Iluzzi se desconectó
+[2026-01-04 16:41:01] PLAYER_JOIN: Jugador Iluzzi se conectó
+[2026-01-04 16:43:45] ALERT: [2026-01-04 16:43:45] [WARNING] TPS Bajo: TPS actual: 16.95 (Umbral: 18.0)
+[2026-01-04 16:44:03] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt optimize
+[2026-01-04 16:44:04] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-04 16:44:18] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt tps
+[2026-01-04 16:48:10] TELEPORT: Jugador Iluzzi se teletransportó de world(907, 82, 50) a world(1000, 82, 50)
+[2026-01-04 16:48:17] TELEPORT: Jugador Iluzzi se teletransportó de world(996, 74, 49) a world(4000, 74, 49)
+[2026-01-04 16:50:23] ALERT: [2026-01-04 16:50:23] [WARNING] TPS Bajo: TPS actual: 16.86 (Umbral: 18.0)
+[2026-01-04 16:50:34] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt optimize
+[2026-01-04 16:50:34] OPTIMIZATION: Optimización manual ejecutada por Iluzzi (tipo: all)
+[2026-01-04 16:50:36] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt
+[2026-01-04 16:50:40] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 16:50:45] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 16:50:48] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 16:50:50] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 16:50:52] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 16:50:52] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 16:50:52] ADMIN_COMMAND: Jugador Iluzzi ejecutó: /optimizadorfinal:opt status
+[2026-01-04 17:02:05] PLAYER_QUIT: Jugador Iluzzi se desconectó
